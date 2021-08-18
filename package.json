@@ -1,5 +1,5 @@
 {
-  "name": "daterangepicker",
+  "name": "daterangepicker-cetc",
   "version": "1.0.0",
   "description": "Date range picker component for Bootstrap",
   "main": "daterangepicker.js",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/truongduy/daterangepicker-cetc/issues"
   },
-  "homepage": "https://github.com/dangrossman/daterangepicker",
+  "homepage": "https://github.com/truongduy/daterangepicker-cetc",
   "dependencies": {
     "jquery": ">=1.10",
     "moment": "^2.9.0"
