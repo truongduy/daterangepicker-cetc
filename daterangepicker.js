@@ -733,7 +733,8 @@
                 dateHtml = monthHtml + yearHtml;
             }
 
-            html += '<th colspan="5" class="month">' + dateHtml + '</th>';
+            html += '<th colspan="4" class="month">' + dateHtml + '</th>';
+            html += '<th class="clear-date">Clear</th>';
 
             if ((!minDate || minDate.isBefore(calendar.firstDay)) && (!this.linkedCalendars || side == 'left')) {
                 html += '<th class="prev available"><span></span></th>';
